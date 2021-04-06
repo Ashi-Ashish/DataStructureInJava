@@ -1,6 +1,5 @@
 package com.GeeksForGeeks;
 
-import com.mypractice.revise.StringSort;
 import java.util.ArrayList;
 import java.util.Scanner;
 
