@@ -10,7 +10,9 @@ package com.LeetCode.Arrays;
 
 public class NumberOfGoodPairs {
     public static void main(String[] args){
-        System.out.println(numIdenticalPairs(new int[]{1,2,3,1,1,3}));
+        int[] listOfNumbers = new int[]{1,2,3,1,1,3};
+        int totalIdenticalPairs = numIdenticalPairs(listOfNumbers);
+        System.out.println(totalIdenticalPairs);
     }
 
     public static int numIdenticalPairs(int[] nums) {
